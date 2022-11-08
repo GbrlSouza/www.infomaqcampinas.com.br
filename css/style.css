@@ -33,7 +33,7 @@ html::-webkit-scrollbar-track{
 }
 
 html::-webkit-scrollbar-thumb{
-    background: #fff;
+    background: #eee;
     border-radius: 5rem;
 }
 
@@ -220,7 +220,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background:url(../images/home-img.jpeg) no-repeat;
+    background:url(../images/home-img.jpeg) no-repeat fixed;
     background-size: cover;
     background-position: center;
 }
