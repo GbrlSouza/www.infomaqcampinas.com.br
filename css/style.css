@@ -281,6 +281,11 @@ section{
     text-align: justify;
 }
 
+.about .row .content .mapa{
+	height: 30rem;
+	display: block;
+}
+
 .menu .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
