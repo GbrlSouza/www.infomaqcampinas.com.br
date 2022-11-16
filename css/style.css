@@ -626,6 +626,7 @@ section{
 }
 
 @media (max-width:475px){
+
     html{
         font-size: 50%;
     }
