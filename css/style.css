@@ -293,7 +293,7 @@ section{
 }
 
 .menu .box-container .box{
-    padding:5rem;
+    padding:2rem;
     text-align: center;
     border:var(--border);    
 }
@@ -339,7 +339,7 @@ section{
 
 .products .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1.5fr));
     gap:1.5rem;
 }
 
