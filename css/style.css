@@ -33,7 +33,7 @@ html::-webkit-scrollbar-track{
 }
 
 html::-webkit-scrollbar-thumb{
-    background: #1e90ff;
+    background: var(--main-color);;
     border-radius: 5rem;
 }
 
@@ -288,8 +288,8 @@ section{
 
 .menu .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap:1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1.5fr));
+    gap:1rem;
 }
 
 .menu .box-container .box{
@@ -417,9 +417,8 @@ section{
 
 .review .box-container .box .user{
     height: 7rem;
-    width: 7rem;
-    border-radius: 50%;
-    object-fit: cover;
+    width: 15rem;
+    /*object-fit: cover;*/
 }
 
 .review .box-container .box .quote{
@@ -508,60 +507,6 @@ section{
     min-height: 13rem;
     resize: vertical;
     color: #fff;
-}
-
-.client .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap:1.5rem;
-}
-
-.client .box-container .box{
-    border:var(--border);    
-}
-
-.client .box-container .box .image{
-    height: 25rem;
-    overflow:hidden;
-    width: 100%;
-}
-
-.client .box-container .box .image img{
-    height: 100%;
-    object-fit: cover;
-    width: 100%;
-}
-
-.client .box-container .box:hover .image img{
-    transform: scale(1.2);
-}
-
-.client .box-container .box .content{
-    padding:2rem;
-}
-
-.client .box-container .box .content .title{
-    font-size: 2.5rem;
-    line-height: 1.5;
-    color:#fff;
-}
-
-.client .box-container .box .content .title:hover{
-    color:var(--main-color);
-}
-
-.client .box-container .box .content span{
-    color:var(--main-color);
-    display: block;
-    padding-top: 1rem;
-    font-size: 2rem;
-}
-
-.client .box-container .box .content p{
-    font-size: 1.6rem;
-    line-height: 1.8;
-    color:#ccc;
-    padding:1rem 0;
 }
 
 .footer{
