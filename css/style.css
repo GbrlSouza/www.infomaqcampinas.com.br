@@ -368,12 +368,12 @@ section{
 }
 
 .products .box-container .box .image img{
-    height: 25rem;
+    height: 20rem;
 }
 
 .products .box-container .box .content h3{
     color:#fff;
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 .products .box-container .box .content .stars{
