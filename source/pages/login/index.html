@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,13 +14,15 @@
     <section class="area-login">
         <div class="login">
             <div><img src="./../../../images/logo_menor.png"></div>
-            <form method="post" action="">
-                <input type="text" name="nome" placeholder="CPF / CNPJ" autofocus />
-                <input type="password" name="senha" placeholder="Senha" />
-                <input type="submit" value="Acessar">
+            <form method="post" action="./../restrito/index.html">
+                <input type="text" name="nome" placeholder="CPF / CNPJ" autofocus id="email" />
+                <input type="password" name="senha" placeholder="Senha" id="password" />
+                <input type="submit" value="Acessar" id="login-button" onchange="Login(event)" >
             </form>
-            <p>Não possuo uma conta!<a href="http://bit.ly/3kMJaHR" target="_blank">Criar conta</a></p>
+            <p id="recover-password-button">Não possuo uma conta!<a href="http://bit.ly/3kMJaHR" target="_blank">Criar conta</a></p>
         </div>
     </section>
+
+    <script src="./../../../js/acesso.js"></script>
 </body>
 </html>
