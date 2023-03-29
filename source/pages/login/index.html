@@ -14,10 +14,10 @@
     <section class="area-login">
         <div class="login">
             <div><img src="./../../../images/logo_menor.png"></div>
-            <form method="post" action="./../restrito/index.html">
+            <form>
                 <input type="text" name="nome" placeholder="CPF / CNPJ" autofocus id="email" />
                 <input type="password" name="senha" placeholder="Senha" id="password" />
-                <input type="submit" value="Acessar" id="login-button" onchange="Login(event)" >
+                <input type="submit" value="Acessar" id="login-button" onclick="login()" >
             </form>
             <p id="recover-password-button">Não possuo uma conta!<a href="http://bit.ly/3kMJaHR" target="_blank">Criar conta</a></p>
         </div>
