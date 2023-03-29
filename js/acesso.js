@@ -1,14 +1,13 @@
-function Login(event) {
-    event.preventDefault();
-    var usuario = document.getElementsByName('username')[0].value;
-    usuario = usuario.toLowerCase();
-    var senha = document.getElementsByName('password')[0].value;
-    senha = senha.toLowerCase();
-  
-    if (usuario == "infomaq" && senha == "06069") {
-      alert("dados corretos");
-      window.location = "index.html";
-    }else{
-      alert("Dados incorretos, tente novamente");
+function login() {
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+
+    if (username === "" || password === "") {
+        alert("Por favor, preencha os campos de usuário e senha.");
+    } else if (username === "infomaq" && password === "06069") {
+        alert("Login bem sucedido.");
+        window.open("./../restrito/index.html");
+    } else {
+        alert("Usuário ou senha incorretos. Tente novamente.");
     }
-  }
+}
