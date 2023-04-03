@@ -243,7 +243,7 @@ section{
 
 .home .content p{
     font-size: 2rem;
-    font-weight: lighter;
+    /*font-weight: lighter;*/
     line-height: 1.8;
     padding:1rem 0;
     color:#eee;
