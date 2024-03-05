@@ -1,5 +1,5 @@
 body{
-    min-height: 100vh;
+    max-height: 100vh;
     display: block;
     align-items: center;
     background:url(./../../../images/web.png) no-repeat fixed ;
