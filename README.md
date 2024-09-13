@@ -27,10 +27,6 @@ O site é composto por três tecnologias principais:
 - **CSS**: Linguagem de estilização para definir o layout e aparência do site.
 - **JavaScript**: Linguagem de programação para adicionar interatividade.
 
-## 🤝 Contribuições
-
-Contribuições são bem-vindas! Se você quiser sugerir melhorias ou relatar problemas, fique à vontade para abrir uma [issue](https://github.com/seu_usuario/infomaq/issues) ou enviar um [pull request](https://github.com/seu_usuario/infomaq/pulls).
-
 ---
 
 Desenvolvido por **Gabriel Souza**.
